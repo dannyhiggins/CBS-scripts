@@ -1,0 +1,81 @@
+{
+    "AcceptLanguage": "", 
+    "ProductId": "prod-atx4lwmmizcco", 
+    "ProvisioningArtifactId": "pa-bmljayloui724", 
+    "ProvisionedProductName": "RedDotCBS1", 
+    "ProvisioningParameters": [
+        {
+            "Key": "ArrayName", 
+            "Value": "RedDotCBS1"
+        },
+        {
+            "Key": "LogSenderDomain", 
+            "Value": "purestorage.com"
+        },
+        {
+            "Key": "PurityInstanceType", 
+            "Value": "V10AR1"
+        },
+        {
+            "Key": "LicenseKey", 
+            "Value": "*****REMOVED******"
+        },
+        {
+            "Key": "AlertRecipients", 
+            "Value": "daniel.higgins@purestorage.com"
+        },
+        {
+            "Key": "KeyName", 
+            "Value": "pureuser"
+        },
+        {
+            "Key": "SystemSubnet", 
+            "Value": "subnet-04f82979c9df748a5"
+        },
+        {
+            "Key": "ReplicationSubnet", 
+            "Value": "subnet-04f82979c9df748a5"
+        },
+        {
+            "Key": "ISCSISubnet", 
+            "Value": "subnet-04f82979c9df748a5"
+        },
+        {
+            "Key": "ManagementSubnet", 
+            "Value": "subnet-04f82979c9df748a5"
+        },
+        {
+            "Key": "ReplicationSecurityGroup", 
+            "Value": "sg-0e3f98a4590591e6c"
+        },
+        {
+            "Key": "ISCSISecurityGroup", 
+            "Value": "sg-0552e8b6c7b1bfd3e"
+        },
+        {
+            "Key": "ManagementSecurityGroup", 
+            "Value": "sg-0f7751b4db0117f84"
+        }
+    ], 
+    "ProvisioningPreferences": {
+        "StackSetRegions": [
+            "ap-southeast-1"
+        ], 
+        "StackSetFailureToleranceCount": 0, 
+        "StackSetFailureTolerancePercentage": 0, 
+        "StackSetMaxConcurrencyCount": 1, 
+        "StackSetMaxConcurrencyPercentage": 100
+    }, 
+    "Tags": [
+        {
+            "Key": "type", 
+            "Value": "array"
+        },
+	{
+	    "Key": "shutdown",
+	    "Value": "y"
+	}
+    ], 
+    "NotificationArns": [
+    ] 
+}
