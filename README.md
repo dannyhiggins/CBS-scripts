@@ -1,7 +1,7 @@
 # CBS-scripts
 Cloud Block Store Automation Scripts
 
-Collection of Pure Storage Cloud Block Store for AWS automation shell scripts used in the building a hybrid could blog post:
+Collection of Pure Storage Cloud Block Store for AWS automation shell scripts used in the building a hybrid cloud blog post:
 https://medium.com/@daniel.higgins_805/building-a-hybrid-cloud-with-pure-storage-flasharray-and-cloud-block-store-for-aws-baa62e01705b
 
 cbs.json              - json file containing the Cloud Block Store deployment parameters    **    
